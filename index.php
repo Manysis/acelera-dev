@@ -1,1 +1,1 @@
-git Primeiro Commit EX2
+“<?php phpinfo(); ?>
