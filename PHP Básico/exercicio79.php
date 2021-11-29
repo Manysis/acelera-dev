@@ -1,7 +1,5 @@
 <?php namespace reference;
-    require_once('../ex_78/Usuarios/Usuario.php');
-    Require_once('../ex_78/7ex_8./Usuarios/Livro.php'); 
-    require_once('../ex_78/Emprestimos.php');
+    require_once('../exercicio78');
 
     class Biblioteca{
         public function __construct(
