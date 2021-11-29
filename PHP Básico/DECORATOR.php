@@ -223,13 +223,13 @@ class Salame extends FuncionalidadeDecorator{
   }
 
 $sal = new Sal();
-echo $sal->valor(). "<br>";
+echo $sal->valor(). "<br><br>";
 $uno = new GeleiaSalame($Sal);
 echo $uno->getNome();
-echo $uno->valor(). "<br>";
+echo $uno->valor(). "<br><br>";
 $uno = new Ovo($Sal);
 echo $Sal->getNome();
-echo $Sal->valor(). "<br>";
+echo $Sal->valor(). "<br><br>";
 
 
 ?>
