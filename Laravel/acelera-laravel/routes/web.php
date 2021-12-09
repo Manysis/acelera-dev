@@ -25,4 +25,5 @@ Route::get('/', function () {
 
 Route::get('/perfil', [UserController::class, 'index']);
 Route::get('/doc', [DocController::class, 'index']);
+Route::get('/doc/show/{id}', [DocController::class, 'show']);
 
