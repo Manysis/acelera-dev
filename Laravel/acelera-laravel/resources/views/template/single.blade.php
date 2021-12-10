@@ -29,9 +29,15 @@
       <li class="nav-item">
         <a class="nav-link" href="/doc">EX100</a>
       </li>
-      
       <li class="nav-item">
+        <a class="nav-link" href="
+      https://github.com/pedroivob/acelera-dev/blob/master/Laravel/acelera-laravel/config/logging.php
+      ">EX101</a>
+      </li><li class="nav-item">
         <a class="nav-link" href="/doc">EX102</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/assinaturas">EX103</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/pedroivob/acelera-dev/tree/master/Laravel/acelera-laravel">GitHub</a>

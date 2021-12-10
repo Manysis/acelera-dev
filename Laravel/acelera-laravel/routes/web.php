@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\{DocController, UserController};
+use App\Http\Controllers\{DocController, UserController, AssinaturaController};
 
 /*
 |--------------------------------------------------------------------------
@@ -26,4 +26,6 @@ Route::get('/', function () {
 Route::get('/perfil', [UserController::class, 'index']);
 Route::get('/doc', [DocController::class, 'index']);
 Route::get('/doc/show/{id}', [DocController::class, 'show']);
+Route::get('/assinaturas', [AssinaturaController::class, 'index']);
+Route::get('/assinatura/show/{id}', [AssinaturaController::class, 'show']);
 
