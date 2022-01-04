@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap 5 Website Example</title>
+  <title>Acelera Laravel</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -24,20 +24,13 @@
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/perfil">Ex99</a>
+        <a class="nav-link" href="/perfil">EX99</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/doc">EX100 /102 </a>
-      </li>
+        <a class="nav-link" href="/assinaturas">Assinaturas</a>
+      </li>  
       <li class="nav-item">
-        <a class="nav-link" href="
-      https://github.com/pedroivob/acelera-dev/blob/master/Laravel/acelera-laravel/config/logging.php
-      ">EX101</a>
-      </li><li class="nav-item">
-        <a class="nav-link" href="/doc">EX102 /100</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/assinaturas">EX103</a>
+        <a class="nav-link" href="/documentos">Documentos </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://github.com/pedroivob/acelera-dev/tree/master/Laravel/acelera-laravel">GitHub</a>

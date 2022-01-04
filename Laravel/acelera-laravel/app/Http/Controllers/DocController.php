@@ -21,6 +21,15 @@ class DocController extends Controller
         Log::channel('documentos')->info('Documento exibidos consultado com sucesso');
         return view('admin.doc.show', compact('doc'));
     }
+    public function new()
+    {   
+        return view('admin.doc.new');
+    }
+    public function create()
+    {   
+        
+        return view('admin.doc.new');
+    }
 }
 
 

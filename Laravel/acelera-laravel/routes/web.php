@@ -24,8 +24,12 @@ Route::get('/', function () {
 
 
 Route::get('/perfil', [UserController::class, 'index']);
-Route::get('/doc', [DocController::class, 'index']);
-Route::get('/doc/show/{id}', [DocController::class, 'show']);
+/* Documentos */
+Route::get('/documentos', [DocController::class, 'index']);
+Route::get('/documento/show/{id}', [DocController::class, 'show']);
+Route::get('/documento/novo', [DocController::class, 'new']);
+Route::get('/documento/criar', [DocController::class, 'create']);
+/* Assinaturas */
 Route::get('/assinaturas', [AssinaturaController::class, 'index']);
 Route::get('/assinatura/show/{id}', [AssinaturaController::class, 'show']);
 
